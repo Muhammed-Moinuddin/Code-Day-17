@@ -1,0 +1,54 @@
+p.one{
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+}
+p.two{
+    border-width: thick;
+    border-color: red;
+    border-style: dotted;
+}
+p.three{
+    border-width: 2px 1px 2px 1px;
+    border-color: red;
+    border-style: dashed;
+}
+/* Short Hand */
+p.four{
+    width: justify;
+    border: 4px dotted blue;
+}
+p.five{
+    width: justify;
+    border: 4px dotted blue;
+    padding: 20px;
+}
+p.six{
+    width: justify;
+    border: 4px dotted blue;
+    padding: 15px 5px 15px 5px;
+    margin: 25px;
+}
+p.seven{
+    width: 300px;
+    border: 6px solid blue;
+    padding: 20px;
+}
+p.eight {
+    width: 300px;
+    border: 6px solid blue;
+    padding: 20px;
+    margin: 10px auto 10px auto;
+}
+ul.one > li{
+    display: inline;
+    margin-right: 10px;
+}
+/* inline-block: This causes a block-level element to flow like an inline 
+element, while retaining other features of a block-level element.*/
+ul.one > li.coming_soon{
+    display: none;
+}
+ul.one > li.checking_visibility{
+    visibility: hidden;
+}
